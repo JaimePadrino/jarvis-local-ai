@@ -61,7 +61,7 @@ pip install -r requirements.txt
 Start the assistant with:
 
 ```bash
-python main.py
+start_jarvis.bat or start_jarvis.vbs
 ```
 
 ## Voice Configuration
