@@ -1,0 +1,269 @@
+2026-05-12 21:39:16 | INFO    | root                      | Logging initialized: level=INFO, file=logs/jarvis.log
+2026-05-12 21:39:17 | INFO    | jarvis.web.server         | Jarvis web server started
+2026-05-12 21:39:22 | INFO    | jarvis.web.server         | WebSocket client connected
+2026-05-12 21:39:31 | INFO    | jarvis.web.server         | Intent: chat | Input: Jarvis
+2026-05-12 21:39:31 | INFO    | jarvis.voice.speak        | TTS starting: ¡Hola! ¿Cómo puedo ayudarte hoy? ¿Quieres abrir Yo...
+2026-05-12 21:39:41 | INFO    | jarvis.web.server         | Intent: desktop_task | Input: abre YouTube
+2026-05-12 21:39:41 | INFO    | jarvis.desktop.agent      | Starting task: abre YouTube
+2026-05-12 21:39:41 | INFO    | jarvis.desktop.agent      | Active window: J.A.R.V.I.S - Google Chrome (browser=True)
+2026-05-12 21:39:42 | INFO    | jarvis.desktop.ocr        | OCR found 5 text elements (min_conf=50)
+2026-05-12 21:39:42 | INFO    | jarvis.desktop.planner    | Planner captured OCR: 5 text elements
+2026-05-12 21:39:51 | INFO    | jarvis.desktop.planner    | Generated plan with 4 steps (attempt 1)
+2026-05-12 21:39:51 | INFO    | jarvis.desktop.agent      | Plan created with 4 steps
+2026-05-12 21:39:51 | INFO    | jarvis.desktop.agent      | Step 1/4: Abrir Chrome (open_app)
+2026-05-12 21:39:51 | INFO    | jarvis.desktop.controller | Opening app: chrome
+2026-05-12 21:39:54 | INFO    | jarvis.desktop.agent      | Step 1 result: Opened chrome
+2026-05-12 21:39:55 | INFO    | jarvis.desktop.agent      | Step 2/4: Ir a YouTube (navigate)
+2026-05-12 21:39:56 | INFO    | jarvis.desktop.web_executor | Browser opened (sync)
+2026-05-12 21:39:59 | INFO    | jarvis.desktop.agent      | Step 2 result: Navigated to https://www.youtube.com (title: YouTube)
+2026-05-12 21:40:00 | INFO    | jarvis.desktop.agent      | Step 3/4: Esperar a que cargue la página de YouTube (wait)
+2026-05-12 21:40:05 | INFO    | jarvis.desktop.agent      | Step 3 result: Waited 5s
+2026-05-12 21:40:06 | INFO    | jarvis.desktop.agent      | Step 4/4: Tarea completada (done)
+2026-05-12 21:40:06 | INFO    | jarvis.voice.speak        | TTS starting: Task completed...
+2026-05-12 21:40:08 | INFO    | jarvis.voice.speak        | TTS completed
+2026-05-12 21:40:08 | INFO    | jarvis.web.server         | WebSocket client disconnected
+2026-05-12 21:47:27 | INFO    | root                      | Logging initialized: level=INFO, file=logs/jarvis.log
+2026-05-12 21:47:28 | INFO    | jarvis.web.server         | Jarvis web server started
+2026-05-12 23:13:22 | INFO    | root                      | Logging initialized: level=INFO, file=logs/jarvis.log
+2026-05-12 23:13:24 | INFO    | jarvis.web.server         | Jarvis web server started
+2026-05-12 23:13:40 | INFO    | jarvis.web.server         | WebSocket client connected
+2026-05-12 23:15:09 | INFO    | jarvis.web.server         | WebSocket client disconnected
+2026-05-13 00:13:26 | INFO    | root                      | Logging initialized: level=INFO, file=logs/jarvis.log
+2026-05-13 00:13:28 | INFO    | jarvis.web.server         | Jarvis web server started
+2026-05-13 00:13:33 | INFO    | jarvis.web.server         | WebSocket client connected
+2026-05-13 00:17:34 | INFO    | jarvis.web.server         | WebSocket client disconnected
+2026-05-13 00:17:34 | INFO    | jarvis.web.server         | WebSocket client connected
+2026-05-13 00:17:36 | INFO    | jarvis.web.server         | WebSocket client disconnected
+2026-05-13 00:29:00 | INFO    | root                      | Logging initialized: level=INFO, file=logs/jarvis.log
+2026-05-13 00:29:01 | INFO    | jarvis.web.server         | Jarvis web server started
+2026-05-13 00:39:29 | INFO    | root                      | Logging initialized: level=INFO, file=logs/jarvis.log
+2026-05-13 00:39:30 | INFO    | jarvis.web.server         | Jarvis web server started
+2026-05-13 00:40:31 | INFO    | root                      | Logging initialized: level=INFO, file=logs/jarvis.log
+2026-05-13 00:40:31 | INFO    | jarvis.web.server         | Jarvis web server started
+2026-05-13 00:48:25 | INFO    | root                      | Logging initialized: level=INFO, file=logs/jarvis.log
+2026-05-13 00:48:26 | INFO    | jarvis.web.server         | Jarvis web server started
+2026-05-13 00:51:47 | INFO    | root                      | Logging initialized: level=INFO, file=logs/jarvis.log
+2026-05-13 00:51:48 | INFO    | jarvis.web.server         | Jarvis web server started
+2026-05-13 00:52:19 | INFO    | root                      | Logging initialized: level=INFO, file=logs/jarvis.log
+2026-05-13 00:52:20 | INFO    | jarvis.web.server         | Jarvis web server started
+2026-05-13 00:56:08 | INFO    | root                      | Logging initialized: level=INFO, file=logs/jarvis.log
+2026-05-13 00:56:09 | INFO    | jarvis.web.server         | Jarvis web server started
+2026-05-13 00:58:17 | INFO    | root                      | Logging initialized: level=INFO, file=logs/jarvis.log
+2026-05-13 00:58:18 | INFO    | jarvis.web.server         | Jarvis web server started
+2026-05-13 00:59:12 | INFO    | root                      | Logging initialized: level=INFO, file=logs/jarvis.log
+2026-05-13 00:59:13 | INFO    | jarvis.web.server         | Jarvis web server started
+2026-05-13 01:02:43 | INFO    | root                      | Logging initialized: level=INFO, file=logs/jarvis.log
+2026-05-13 01:02:44 | INFO    | jarvis.web.server         | Jarvis web server started
+2026-05-13 01:03:30 | INFO    | jarvis.web.server         | WebSocket client connected
+2026-05-13 01:03:34 | INFO    | httpx                     | HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2026-05-13 01:03:34 | INFO    | jarvis.voice.speak        | TTS starting: Hello! How can I assist you today?...
+2026-05-13 01:04:09 | INFO    | jarvis.voice.speak        | TTS completed
+2026-05-13 01:04:10 | INFO    | jarvis.web.server         | WebSocket client disconnected
+2026-05-13 01:04:43 | INFO    | root                      | Logging initialized: level=INFO, file=logs/jarvis.log
+2026-05-13 01:04:44 | INFO    | jarvis.web.server         | Jarvis web server started
+2026-05-13 01:06:20 | INFO    | root                      | Logging initialized: level=INFO, file=logs/jarvis.log
+2026-05-13 01:06:21 | INFO    | jarvis.web.server         | Jarvis web server started
+2026-05-13 02:01:45 | INFO    | root                      | Logging initialized: level=INFO, file=logs/jarvis.log
+2026-05-13 02:01:46 | INFO    | jarvis.web.server         | Jarvis web server started
+2026-05-13 02:03:55 | INFO    | root                      | Logging initialized: level=INFO, file=logs/jarvis.log
+2026-05-13 02:03:56 | INFO    | jarvis.web.server         | Jarvis web server started
+2026-05-13 02:06:13 | INFO    | root                      | Logging initialized: level=INFO, file=logs/jarvis.log
+2026-05-13 02:06:14 | INFO    | jarvis.web.server         | Jarvis web server started
+2026-05-13 02:17:54 | INFO    | root                      | Logging initialized: level=INFO, file=logs/jarvis.log
+2026-05-13 02:17:55 | INFO    | jarvis.web.server         | Voice engine threads started
+2026-05-13 02:17:55 | INFO    | jarvis.web.server         | Jarvis web server started
+2026-05-13 02:18:50 | INFO    | jarvis.web.server         | WebSocket client connected
+2026-05-13 02:18:51 | INFO    | httpx                     | HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2026-05-13 02:18:51 | INFO    | jarvis.web.server         | WebSocket client disconnected
+2026-05-13 02:18:51 | INFO    | jarvis.voice.speak        | TTS starting: ¡Hola! ¿Cómo puedo ayudarte hoy? ¿Quieres abrir Yo...
+2026-05-13 02:18:57 | INFO    | jarvis.voice.speak        | TTS completed
+2026-05-13 02:19:29 | INFO    | jarvis.web.server         | WebSocket client connected
+2026-05-13 02:20:18 | INFO    | httpx                     | HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2026-05-13 02:20:18 | INFO    | jarvis.voice.speak        | TTS starting: ¡Hola! ¿Cómo puedo ayudarte hoy?...
+2026-05-13 02:20:22 | INFO    | jarvis.voice.speak        | TTS completed
+2026-05-13 02:24:11 | INFO    | root                      | Logging initialized: level=INFO, file=logs/jarvis.log
+2026-05-13 02:24:12 | INFO    | jarvis.web.server         | Voice engine threads started
+2026-05-13 02:24:12 | INFO    | jarvis.web.server         | Jarvis web server started
+2026-05-13 02:24:54 | INFO    | root                      | Logging initialized: level=INFO, file=logs/jarvis.log
+2026-05-13 02:24:55 | INFO    | jarvis.web.server         | Voice engine threads started
+2026-05-13 02:24:55 | INFO    | jarvis.web.server         | Jarvis web server started
+2026-05-13 02:25:34 | INFO    | root                      | Logging initialized: level=INFO, file=logs/jarvis.log
+2026-05-13 02:25:35 | INFO    | jarvis.web.server         | Voice engine threads started
+2026-05-13 02:25:35 | INFO    | jarvis.web.server         | Jarvis web server started
+2026-05-13 02:25:50 | INFO    | jarvis.web.server         | WebSocket client connected
+2026-05-13 02:26:20 | INFO    | httpx                     | HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2026-05-13 02:26:21 | INFO    | jarvis.voice.speak        | TTS starting: ¡Hola! ¿Cómo estás? ¿En qué puedo ayudarte hoy?...
+2026-05-13 02:26:26 | INFO    | jarvis.voice.speak        | TTS completed
+2026-05-13 02:27:30 | INFO    | httpx                     | HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2026-05-13 02:27:31 | INFO    | jarvis.voice.speak        | TTS starting: ¡Hola! ¿Cómo estás? ¿En qué puedo ayudarte hoy?...
+2026-05-13 02:27:36 | INFO    | jarvis.voice.speak        | TTS completed
+2026-05-13 02:27:46 | INFO    | root                      | Logging initialized: level=INFO, file=logs/jarvis.log
+2026-05-13 02:27:46 | INFO    | jarvis.web.server         | Voice engine threads started
+2026-05-13 02:27:46 | INFO    | jarvis.web.server         | Jarvis web server started
+2026-05-13 02:27:46 | INFO    | jarvis.web.server         | WebSocket client connected
+2026-05-13 02:27:49 | INFO    | httpx                     | HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2026-05-13 02:27:49 | INFO    | jarvis.voice.speak        | TTS starting: ¡Hola! ¿Cómo estás? ¿En qué puedo ayudarte hoy?...
+2026-05-13 02:27:57 | INFO    | root                      | Logging initialized: level=INFO, file=logs/jarvis.log
+2026-05-13 02:27:58 | INFO    | jarvis.web.server         | Voice engine threads started
+2026-05-13 02:27:58 | INFO    | jarvis.web.server         | Jarvis web server started
+2026-05-13 02:28:07 | INFO    | jarvis.web.server         | WebSocket client connected
+2026-05-13 02:28:10 | INFO    | httpx                     | HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2026-05-13 02:28:10 | INFO    | jarvis.voice.speak        | TTS starting: ¡Hola! ¿Cómo estás? ¿En qué puedo ayudarte hoy?...
+2026-05-13 02:28:16 | INFO    | jarvis.voice.speak        | TTS completed
+2026-05-13 02:28:29 | INFO    | httpx                     | HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2026-05-13 02:28:33 | INFO    | jarvis.voice.speak        | TTS starting: Los Porsche 911 son una famosa línea de automóvile...
+2026-05-13 02:30:27 | INFO    | root                      | Logging initialized: level=INFO, file=logs/jarvis.log
+2026-05-13 02:30:27 | INFO    | jarvis.web.server         | Voice engine threads started
+2026-05-13 02:30:27 | INFO    | jarvis.web.server         | Jarvis web server started
+2026-05-13 02:30:42 | INFO    | jarvis.web.server         | WebSocket client connected
+2026-05-13 02:30:56 | INFO    | httpx                     | HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2026-05-13 02:31:01 | INFO    | jarvis.voice.speak        | TTS starting: Los Porsche 911 son una famosa línea de automóvile...
+2026-05-13 02:49:23 | INFO    | root                      | Logging initialized: level=INFO, file=logs/jarvis.log
+2026-05-13 02:49:24 | INFO    | jarvis.backend.api.server | Voice engine threads started
+2026-05-13 02:49:24 | INFO    | jarvis.backend.api.server | Jarvis web server started
+2026-05-13 02:50:01 | INFO    | jarvis.backend.api.server | WebSocket client connected
+2026-05-13 02:50:09 | INFO    | httpx                     | HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2026-05-13 02:50:09 | INFO    | jarvis.voice.tts          | TTS starting: ¡Hola! ¿Cómo estás? ¿En qué puedo ayudarte hoy? ¿Q...
+2026-05-13 02:50:18 | INFO    | jarvis.voice.tts          | TTS completed
+2026-05-13 02:50:29 | INFO    | httpx                     | HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2026-05-13 02:50:30 | INFO    | jarvis.voice.tts          | TTS starting: Claro, puedo ayudarte con eso. ¿Podrías decirme dó...
+2026-05-13 02:50:36 | INFO    | jarvis.voice.tts          | TTS completed
+2026-05-13 02:50:41 | INFO    | httpx                     | HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2026-05-13 02:50:41 | INFO    | jarvis.voice.tts          | TTS starting: Por supuesto, te ayudaré con eso. ¿Podrías decírme...
+2026-05-13 02:50:49 | INFO    | jarvis.voice.tts          | TTS completed
+2026-05-13 02:50:57 | INFO    | httpx                     | HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2026-05-13 02:50:57 | INFO    | jarvis.voice.tts          | TTS starting: Por supuesto, te ayudaré con eso. ¿Podrías decírme...
+2026-05-13 02:51:05 | INFO    | jarvis.voice.tts          | TTS completed
+2026-05-13 02:51:05 | INFO    | jarvis.backend.api.server | WebSocket client disconnected
+2026-05-13 03:00:53 | INFO    | root                      | Logging initialized: level=INFO, file=logs/jarvis.log
+2026-05-13 03:00:53 | INFO    | jarvis.backend.api.server | Voice engine threads started
+2026-05-13 03:00:53 | INFO    | jarvis.backend.api.server | Jarvis web server started
+2026-05-13 03:01:00 | INFO    | jarvis.backend.api.server | WebSocket client connected
+2026-05-13 03:01:07 | INFO    | httpx                     | HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2026-05-13 03:01:07 | INFO    | jarvis.voice.tts          | TTS starting: ¿Cómo estás? ¿En qué puedo ayudarte hoy?...
+2026-05-13 03:01:12 | INFO    | jarvis.voice.tts          | TTS completed
+2026-05-13 03:01:15 | INFO    | httpx                     | HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2026-05-13 03:01:15 | INFO    | jarvis.voice.tts          | TTS starting: ¿Podrías ser más específico, por favor? Estoy aquí...
+2026-05-13 03:01:21 | INFO    | jarvis.voice.tts          | TTS completed
+2026-05-13 03:01:38 | INFO    | httpx                     | HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2026-05-13 03:01:39 | INFO    | jarvis.voice.tts          | TTS starting: Lo siento, pero no puedo ayudarte con eso....
+2026-05-13 03:01:42 | INFO    | jarvis.voice.tts          | TTS completed
+2026-05-13 03:01:43 | INFO    | jarvis.backend.api.server | WebSocket client disconnected
+2026-05-13 03:42:53 | INFO    | root                      | Logging initialized: level=INFO, file=logs/jarvis.log
+2026-05-13 03:42:54 | INFO    | jarvis.backend.api.server | Voice engine threads started
+2026-05-13 03:42:54 | INFO    | jarvis.backend.api.server | Jarvis web server started
+2026-05-13 03:45:36 | INFO    | root                      | Logging initialized: level=INFO, file=logs/jarvis.log
+2026-05-13 03:45:37 | INFO    | jarvis.backend.api.server | Voice engine threads started
+2026-05-13 03:45:37 | INFO    | jarvis.backend.api.server | Jarvis web server started
+2026-05-13 03:45:48 | INFO    | jarvis.backend.api.server | WebSocket client connected
+2026-05-13 03:45:56 | INFO    | httpx                     | HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2026-05-13 03:45:56 | INFO    | jarvis.voice.tts          | TTS starting: ¡Hola! Espero que estés teniendo un buen día. ¿En ...
+2026-05-13 03:46:03 | INFO    | jarvis.voice.tts          | TTS completed
+2026-05-13 03:46:04 | INFO    | jarvis.backend.api.server | WebSocket client disconnected
+2026-05-13 03:46:50 | INFO    | root                      | Logging initialized: level=INFO, file=logs/jarvis.log
+2026-05-13 03:46:59 | INFO    | jarvis.voice.tts          | TTS starting: ¡Hola! ¿Cómo estás? ¿En qué puedo ayudarte hoy?...
+2026-05-13 03:47:05 | INFO    | jarvis.voice.tts          | TTS completed
+2026-05-13 03:47:23 | INFO    | jarvis.voice.tts          | TTS starting: ¡Hola! Eso suena interesante. ¿Quieres enfocarte e...
+2026-05-13 03:47:33 | INFO    | jarvis.voice.tts          | TTS completed
+2026-05-13 03:47:47 | INFO    | jarvis.voice.tts          | TTS starting: Entendido. Comenzarás con los fundamentos básicos ...
+2026-05-13 03:48:07 | INFO    | jarvis.voice.tts          | TTS completed
+2026-05-13 03:48:30 | INFO    | jarvis.voice.tts          | TTS starting: Claro, eso es correcto. Para crear una variable en...
+2026-05-13 20:24:56 | INFO    | root                      | Logging initialized: level=INFO, file=logs/jarvis.log
+2026-05-13 20:24:57 | INFO    | jarvis.backend.api.server | Voice engine threads started
+2026-05-13 20:24:57 | INFO    | jarvis.backend.api.server | Jarvis web server started
+2026-05-13 20:25:04 | INFO    | jarvis.backend.api.server | WebSocket client connected
+2026-05-13 20:25:11 | INFO    | httpx                     | HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2026-05-13 20:25:11 | INFO    | jarvis.voice.tts          | TTS starting: ¡Hola! ¿Cómo puedo ayudarte hoy?...
+2026-05-13 20:25:16 | INFO    | jarvis.voice.tts          | TTS completed
+2026-05-13 20:25:20 | INFO    | httpx                     | HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2026-05-13 20:25:20 | INFO    | jarvis.voice.tts          | TTS starting: En Madrid actualmente hace soleado con una tempera...
+2026-05-13 20:25:27 | INFO    | jarvis.voice.tts          | TTS completed
+2026-05-13 20:25:55 | INFO    | httpx                     | HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2026-05-13 20:25:56 | INFO    | jarvis.voice.tts          | TTS starting: ¡Hola! ¿Con qué necesitas ayuda?...
+2026-05-13 20:26:00 | INFO    | jarvis.voice.tts          | TTS completed
+2026-05-13 20:26:18 | INFO    | httpx                     | HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2026-05-13 20:26:19 | INFO    | jarvis.voice.tts          | TTS starting: Lo siento, pero no puedo proporcionar información ...
+2026-05-13 20:26:28 | INFO    | httpx                     | HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2026-05-13 20:26:34 | INFO    | jarvis.voice.tts          | TTS completed
+2026-05-13 20:26:34 | INFO    | jarvis.voice.tts          | TTS starting: Mi nombre es Jaime. ¿Cómo puedo ayudarte hoy, Jaim...
+2026-05-13 20:26:40 | INFO    | jarvis.voice.tts          | TTS completed
+2026-05-13 20:26:44 | INFO    | httpx                     | HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2026-05-13 20:26:44 | INFO    | jarvis.voice.tts          | TTS starting: Mi nombre es Jaime. Soy un asistente personal crea...
+2026-05-13 20:27:02 | INFO    | jarvis.backend.api.server | WebSocket client disconnected
+2026-05-13 20:27:05 | INFO    | jarvis.voice.tts          | TTS completed
+2026-05-15 00:59:25 | INFO    | root                      | Logging initialized: level=INFO, file=logs/jarvis.log
+2026-05-15 00:59:26 | INFO    | jarvis.backend.api.server | Voice engine threads started
+2026-05-15 00:59:26 | INFO    | jarvis.backend.api.server | Jarvis web server started
+2026-05-15 00:59:35 | INFO    | jarvis.backend.api.server | WebSocket client connected
+2026-05-15 00:59:48 | INFO    | jarvis.voice.stt          | Wake word detected: 'jarvis'
+2026-05-15 00:59:48 | INFO    | jarvis.voice.tts          | TTS starting: Sí...
+2026-05-15 00:59:50 | INFO    | jarvis.voice.tts          | TTS completed
+2026-05-15 00:59:54 | INFO    | httpx                     | HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2026-05-15 00:59:54 | INFO    | jarvis.voice.tts          | TTS starting: Lo siento, pero no puedo acceder a servicios exter...
+2026-05-15 00:59:58 | INFO    | jarvis.voice.stt          | Heard: lo siento pero no puedo acceder a
+2026-05-15 01:00:02 | INFO    | jarvis.voice.tts          | TTS completed
+2026-05-15 01:00:02 | INFO    | jarvis.voice.tts          | TTS starting: Lo siento, pero no puedo proporcionar información ...
+2026-05-15 01:00:09 | INFO    | jarvis.voice.stt          | Heard: lo siento pero no puedo proporcionar información sobre eventos futu
+2026-05-15 01:02:33 | INFO    | root                      | Logging initialized: level=INFO, file=logs/jarvis.log
+2026-05-15 01:02:33 | INFO    | jarvis.backend.api.server | Voice engine threads started
+2026-05-15 01:02:33 | INFO    | jarvis.backend.api.server | Jarvis web server started
+2026-05-15 01:02:34 | INFO    | jarvis.backend.api.server | WebSocket client connected
+2026-05-15 01:02:40 | INFO    | jarvis.backend.api.server | WebSocket client disconnected
+2026-05-15 01:02:41 | INFO    | jarvis.backend.api.server | WebSocket client connected
+2026-05-15 01:02:45 | INFO    | httpx                     | HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2026-05-15 01:02:45 | INFO    | jarvis.voice.stt          | Wake word detected: 'jarvis'
+2026-05-15 01:02:45 | INFO    | jarvis.voice.tts          | TTS starting: Sí...
+2026-05-15 01:02:47 | INFO    | jarvis.voice.tts          | TTS completed
+2026-05-15 01:02:47 | INFO    | jarvis.voice.tts          | TTS starting: Lo siento, pero no puedo acceder a aplicaciones ex...
+2026-05-15 01:02:54 | INFO    | jarvis.voice.stt          | Heard: lo siento pero no puedo acceder a aplicaciones externas como
+2026-05-15 01:02:57 | INFO    | jarvis.voice.tts          | TTS completed
+2026-05-15 01:02:57 | INFO    | jarvis.voice.tts          | TTS starting: Lo siento, pero no puedo acceder a aplicaciones ex...
+2026-05-16 12:09:04 | INFO    | root                      | Logging initialized: level=INFO, file=logs/jarvis.log
+2026-05-16 12:09:05 | INFO    | jarvis.backend.api.server | Voice engine threads started
+2026-05-16 12:09:05 | INFO    | jarvis.backend.api.server | Jarvis web server started
+2026-05-16 12:09:10 | INFO    | jarvis.backend.api.server | WebSocket client connected
+2026-05-16 12:09:30 | INFO    | httpx                     | HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2026-05-16 12:09:31 | INFO    | jarvis.voice.tts          | TTS starting: La identidad de Euler es una fórmula muy conocida ...
+2026-05-16 12:09:56 | INFO    | jarvis.voice.tts          | TTS completed
+2026-05-16 12:10:17 | INFO    | httpx                     | HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2026-05-16 12:10:18 | INFO    | jarvis.voice.tts          | TTS starting: Entendido. Jaime, si tienes alguna otra pregunta o...
+2026-05-16 12:10:29 | INFO    | jarvis.voice.tts          | TTS completed
+2026-05-16 12:10:47 | INFO    | jarvis.backend.api.server | WebSocket client disconnected
+2026-05-16 22:36:49 | INFO    | root                      | Logging initialized: level=INFO, file=logs/jarvis.log
+2026-05-16 22:37:00 | INFO    | root                      | Logging initialized: level=INFO, file=logs/jarvis.log
+2026-05-16 22:37:20 | INFO    | root                      | Logging initialized: level=INFO, file=logs/jarvis.log
+2026-05-16 22:37:21 | INFO    | jarvis.backend.api.server | Voice engine threads started
+2026-05-16 22:37:21 | INFO    | jarvis.backend.api.server | Jarvis web server started
+2026-05-16 23:28:06 | INFO    | root                      | Logging initialized: level=INFO, file=logs/jarvis.log
+2026-05-16 23:28:07 | INFO    | jarvis.backend.api.server | Voice engine threads started
+2026-05-16 23:28:07 | INFO    | jarvis.backend.api.server | Jarvis web server started
+2026-05-24 23:11:11 | INFO    | root                      | Logging initialized: level=INFO, file=logs/jarvis.log
+2026-05-24 23:11:12 | INFO    | jarvis.backend.api.server | Voice engine threads started
+2026-05-24 23:11:12 | INFO    | jarvis.backend.api.server | Jarvis web server started
+2026-05-24 23:11:21 | INFO    | jarvis.backend.api.server | WebSocket client connected
+2026-05-24 23:11:30 | INFO    | httpx                     | HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2026-05-24 23:11:30 | INFO    | jarvis.voice.tts          | TTS starting: Entendido. ¿Cómo puedo ayudarte hoy, Jaime? ¿Hay a...
+2026-05-24 23:11:41 | INFO    | jarvis.voice.tts          | TTS completed
+2026-05-24 23:11:46 | INFO    | jarvis.backend.api.server | WebSocket client disconnected
+2026-05-24 23:11:54 | INFO    | root                      | Logging initialized: level=INFO, file=logs/jarvis.log
+2026-05-24 23:11:54 | INFO    | jarvis.backend.api.server | Voice engine threads started
+2026-05-24 23:11:54 | INFO    | jarvis.backend.api.server | Jarvis web server started
+2026-05-24 23:12:02 | INFO    | jarvis.backend.api.server | WebSocket client connected
+2026-05-24 23:12:06 | INFO    | httpx                     | HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2026-05-24 23:12:06 | INFO    | jarvis.voice.tts          | TTS starting: Entendido. ¿Cómo estás? ¿En qué puedo ayudarte hoy...
+2026-05-24 23:12:13 | INFO    | jarvis.voice.tts          | TTS completed
+2026-05-24 23:12:23 | INFO    | httpx                     | HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2026-05-24 23:12:26 | INFO    | jarvis.voice.tts          | TTS starting: Jeffrey Epstein fue un magnate estadounidense cono...
+2026-05-24 23:12:52 | INFO    | jarvis.backend.api.server | WebSocket client disconnected
+2026-05-29 19:59:45 | INFO    | root                      | Logging initialized: level=INFO, file=logs/jarvis.log
+2026-05-29 19:59:46 | INFO    | jarvis.backend.api.server | Voice engine threads started
+2026-05-29 19:59:46 | INFO    | jarvis.backend.api.server | Jarvis web server started
+2026-05-29 19:59:53 | INFO    | jarvis.backend.api.server | WebSocket client connected
+2026-05-29 20:00:05 | INFO    | jarvis.backend.api.server | WebSocket client disconnected
+2026-05-29 20:00:05 | INFO    | jarvis.backend.api.server | WebSocket client connected
+2026-05-29 20:00:42 | INFO    | jarvis.backend.api.server | WebSocket client disconnected
+2026-05-29 20:00:58 | INFO    | jarvis.backend.api.server | WebSocket client connected
+2026-05-29 23:03:37 | INFO    | root                      | Logging initialized: level=INFO, file=logs/jarvis.log
+2026-05-29 23:03:38 | INFO    | jarvis.backend.api.server | Voice engine threads started
+2026-05-29 23:03:38 | INFO    | jarvis.backend.api.server | Jarvis web server started
+2026-05-29 23:06:48 | INFO    | root                      | Logging initialized: level=INFO, file=logs/jarvis.log

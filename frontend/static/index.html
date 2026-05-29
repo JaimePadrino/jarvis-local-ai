@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>J.A.R.V.I.S</title>
+<link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+<div class="app">
+  <div class="topbar">
+    <span class="logo">J.A.R.V.I.S</span>
+    <span class="status-pill" id="statusPill">Offline</span>
+    <div class="spacer"></div>
+    <span class="clock" id="clock"></span>
+    <span class="weather-chip" id="weatherChip">&#8212; &bull; Weather</span>
+  </div>
+
+  <div class="main">
+    <div class="left-panel">
+      <div class="card">
+        <div class="card-title"><span>System Stats</span><span class="icon">&#9881;</span></div>
+        <div class="stat-row"><span class="label">CPU Usage</span><span class="value" id="cpuVal">&mdash;</span></div>
+        <div class="progress-bar"><div class="fill" id="cpuBar" style="width:0%"></div></div>
+        <div class="stat-row"><span class="label">RAM Usage</span><span class="value" id="ramVal">&mdash;</span></div>
+        <div class="progress-bar"><div class="fill" id="ramBar" style="width:0%"></div></div>
+        <div class="stat-grid">
+          <div class="stat-box"><div class="stat-label">CPU</div><div class="stat-value" id="cpuPct">&mdash;</div></div>
+          <div class="stat-box"><div class="stat-label">Memory</div><div class="stat-value" id="memVal">&mdash;</div></div>
+          <div class="stat-box"><div class="stat-label">Disk</div><div class="stat-value" id="diskVal">&mdash;</div></div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-title"><span>Weather</span><span class="icon">&#9729;</span></div>
+        <div class="weather-temp" id="weatherTemp">&mdash;</div>
+        <div class="weather-location" id="weatherLoc">Madrid</div>
+        <div class="weather-desc" id="weatherDesc">&mdash;</div>
+        <div class="weather-grid">
+          <div class="stat-box"><div class="stat-label">Humidity</div><div class="stat-value" id="weatherHum">&mdash;</div></div>
+          <div class="stat-box"><div class="stat-label">Wind</div><div class="stat-value" id="weatherWind">&mdash;</div></div>
+          <div class="stat-box"><div class="stat-label">Feels Like</div><div class="stat-value" id="weatherFeels">&mdash;</div></div>
+        </div>
+      </div>
+
+
+
+      <div class="card">
+        <div class="card-title"><span>System Uptime</span><span class="icon">&#9201;</span></div>
+        <div class="uptime-time" id="uptime">00:00:00</div>
+        <div class="stat-grid">
+          <div class="stat-box"><div class="stat-label">Sessions</div><div class="stat-value">1</div></div>
+          <div class="stat-box"><div class="stat-label">Commands</div><div class="stat-value" id="cmdCount">0</div></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="center-panel">
+      <div class="canvas-container">
+        <canvas id="reactor"></canvas>
+        <div class="center-label">J.A.R.V.I.S</div>
+        <div class="center-status" id="centerStatus">Offline</div>
+      </div>
+      <div class="center-controls">
+        <button id="btnMic" title="Microphone">&#127908;</button>
+
+        <button id="btnVoice" title="Toggle voice output">&#128264;</button>
+      </div>
+    </div>
+
+    <div class="right-panel">
+      <div class="chat-header">
+        <h2>Conversation</h2>
+        <div class="btns">
+          <button id="btnClear">Clear</button>
+          <button id="btnExport">Export</button>
+        </div>
+      </div>
+      <div class="chat-panel" id="chatPanel"></div>
+      <div class="input-bar">
+        <input type="text" id="inputBox" placeholder="Type a message..." autocomplete="off">
+        <button id="btnSend">&#10148;</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="/static/app.js"></script>
+</body>
+</html>
