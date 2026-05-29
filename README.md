@@ -18,6 +18,8 @@ The assistant can talk, remember conversations, and interact through a graphical
 * Simple GUI
 * Powered by Qwen2.5-Coder:7B
 * Runs locally with Ollama
+* Speaker recognition
+*  Real-time voice interaction
 
 ## Requirements
 
@@ -91,7 +93,6 @@ Make sure Ollama is running before starting Jarvis.
 ## Future Goals
 
 * Better memory system
-* Microphone input
 * More tools and automation
 * Smarter context handling
 * Better GUI design
